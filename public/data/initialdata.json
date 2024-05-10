@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "408eb8e0-4",
+        "question": "What is the capital of Spain?",
+        "options": [
+            "London",
+            "Berlin",
+            "Paris",
+            "Madrid"
+        ],
+        "answer": "Madrid",
+        "audioUrl": "/audio/408eb8e0-4"
+    },
+    {
+        "_id": "ff9cd671-9",
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Venus"
+        ],
+        "answer": "Mars",
+        "audioUrl": "/audio/ff9cd671-9"
+    },
+    {
+        "_id": "3084e7ca-8",
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": [
+            "William Shakespeare",
+            "Charles Dickens",
+            "Jane Austen",
+            "Leo Tolstoy"
+        ],
+        "answer": "William Shakespeare",
+        "audioUrl": "/audio/ff9cd671-9"
+    },
+    {
+        "_id": "7c92600a-e",
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Michelangelo"
+        ],
+        "answer": "Leonardo da Vinci",
+        "audioUrl": "/audio/7c92600a-e"
+    },
+    {
+        "_id": "63f32d76-9",
+        "question": "What is the capital of India?",
+        "options": [
+            "Delhi",
+            "Rabat",
+            "Kolkata",
+            "Chennai"
+        ],
+        "answer": "Delhi",
+        "audioUrl": "/audio/63f32d76-9"
+    }
+]
