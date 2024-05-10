@@ -5,7 +5,7 @@ import "./App.css";
 // import Loading from "../src/components/Loading/Loading";
 import Header from "../src/components/Header/Header";
 import Footer from "../src/components/Footer/Footer";
-import Test from "../src/components/Test/Test";
+
 import Home from "../src/Pages/Home/Home";
 import Quiz from "../src/Pages/Quiz/Quiz";
 import axios from "axios";

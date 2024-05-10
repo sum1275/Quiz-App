@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography,Button } from '@mui/material';
+import { Box} from '@mui/material';
 import Question from '../../components/Question/Question';
 import Score from '../../components/Score/Score';
 
 interface Question {
-  _id: string;
+  id: string;
   question: string;
   options: string[];
   answer: string;
