@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import "./App.css";
 // import Button from "@mui/material/Button";
 // import Loading from "../src/components/Loading/Loading";
 import Header from "../src/components/Header/Header";
 import Footer from "../src/components/Footer/Footer";
-
 import Home from "../src/Pages/Home/Home";
 import Quiz from "../src/Pages/Quiz/Quiz";
 import axios from "axios";

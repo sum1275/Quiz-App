@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography, TextField, Button, Grid } from "@mui/material";
+import { TextField, Button, Grid } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 interface HomeProps {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Typography, Divider } from "@mui/material";
+import { Typography } from "@mui/material";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({

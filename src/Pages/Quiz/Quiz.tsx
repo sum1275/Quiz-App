@@ -25,7 +25,7 @@ const Quiz: React.FC<QuizProps> = ({ name, questions, score, setScore,quizStarte
   const [timer, setTimer] = useState(10);
 //   const [quizStarted, setQuizStarted] = useState(false);
   const [isLastq, setIsLastq] = useState(false);
-
+console.log(name);
   useEffect(() => {
     if (quizStarted) {
       const interval = setInterval(() => {
