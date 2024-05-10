@@ -20,6 +20,7 @@ const Home: React.FC<HomeProps> = ({
   const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setName(event.target.value);
   };
+  console.log(quizStarted)
   const handleSubmit = () => {
     if (name.length > 0) {
       setError(false);

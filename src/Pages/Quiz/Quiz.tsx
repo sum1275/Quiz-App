@@ -57,10 +57,7 @@ console.log(name);
     setTimer(10);
   };
 
-  const startQuiz = () => {
-    setQuizStarted(true);
-  };
-
+ 
   return (
     <Box className="card container mt-2 d-flex justify-content-center align-items-center" sx={{ maxWidth: '600px', margin: '0 auto' }}>
       {/* <Typography variant="h3" className="text-success mt-2">GeekForGeeks</Typography> */}
