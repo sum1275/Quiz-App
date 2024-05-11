@@ -22,7 +22,7 @@ interface QuizProps {
 
 const Quiz: React.FC<QuizProps> = ({ name, questions, score, setScore,quizStarted,setQuizStarted }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [timer, setTimer] = useState(1500000000000000);
+  const [timer, setTimer] = useState(15);
 //   const [quizStarted, setQuizStarted] = useState(false);
   const [isLastq, setIsLastq] = useState(false);
 console.log(name);
@@ -54,22 +54,10 @@ console.log(name);
       setIsLastq(true);
     }
     setCurrentQuestionIndex(prevQuestion => prevQuestion + 1);
-    setTimer(15000000000000000000000);
+    setTimer(15);
   };
 
-  // useEffect(() => {
-  //   // if (selectedOption) {
-  //   //   console.log('Selected Option:', selectedOption);
-  //   // }
-  //   const audio = new Audio(questions[currentQuestionIndex].audioUrl);
-  //   audio.load();
-  //   return () => {
-  //     // Cleanup function to stop the audio when the component unmounts
-  //     audio.pause();
-  //     audio.currentTime = 0;
-  //   };
-  // }, [currentQuestionIndex]);
-
+ 
  
   return (
     <Box className="card container mt-2 d-flex justify-content-center align-items-center" sx={{ maxWidth: '600px', margin: '0 auto' }}>
