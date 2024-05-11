@@ -10,16 +10,20 @@ Various Screens:
  **Overview**: This is Quiz App With Audio for Each Question.
  ## Setting up the Frontend in Local Environment
 
-To set up UnstopFrontend locally, follow these steps:
+To set up Quiz App locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
   (https://github.com/sum1275/Quiz-App.git)
-2. **Start the Server**:
+2. **Install Packages**
+ ```bash
+npm install
+3. **Start the Server**:
    To initiate the application server, execute the following command in your terminal:
    ```bash
    npm run dev
-5. **Contributing**:
+
+ **Contributing**:
    Your contributions are essential to the development and improvement of the Quiz App. Here are the steps to contribute:
 
    1. **Fork the Project**: Begin by creating your own copy of the project on GitHub.
