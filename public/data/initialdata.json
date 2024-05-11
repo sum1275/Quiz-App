@@ -9,7 +9,7 @@
             "Madrid"
         ],
         "answer": "Madrid",
-        "audioUrl": "/audio/408eb8e0-4"
+        "audioUrl": "/audio/408eb8e0-4.mp3"
     },
     {
         "_id": "ff9cd671-9",
@@ -21,7 +21,7 @@
             "Venus"
         ],
         "answer": "Mars",
-        "audioUrl": "/audio/ff9cd671-9"
+        "audioUrl": "/audio/ff9cd671-9.mp3"
     },
     {
         "_id": "3084e7ca-8",
@@ -33,7 +33,7 @@
             "Leo Tolstoy"
         ],
         "answer": "William Shakespeare",
-        "audioUrl": "/audio/ff9cd671-9"
+        "audioUrl": "/audio/3084e7ca-8.mp3"
     },
     {
         "_id": "7c92600a-e",
@@ -45,7 +45,7 @@
             "Michelangelo"
         ],
         "answer": "Leonardo da Vinci",
-        "audioUrl": "/audio/7c92600a-e"
+        "audioUrl": "/audio/7c92600a-e.mp3"
     },
     {
         "_id": "63f32d76-9",
@@ -57,6 +57,6 @@
             "Chennai"
         ],
         "answer": "Delhi",
-        "audioUrl": "/audio/63f32d76-9"
+        "audioUrl": "/audio/63f32d76-9.mp3"
     }
 ]

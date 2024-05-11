@@ -1,13 +1,11 @@
-import { v4 as uuidv4 } from 'uuid';
+import React from 'react'
 
-const MyComponent = () => {
-  const uniqueId = uuidv4().slice(0, 10);;
-
+function Test() {
   return (
     <div>
-      <h1>Unique ID: {uniqueId}</h1>
+      
     </div>
-  );
-};
+  )
+}
 
-export default MyComponent;
+export default Test

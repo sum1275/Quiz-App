@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Box,
   Typography,
@@ -33,21 +33,25 @@ const Questions: React.FC<QuestionsProps> = ({
   handleAnswerClick,
   timer,
   isLastq,
-  audioUrl
+  audioUrl,
 }) => {
-   console.log(audioUrl)
+  console.log(audioUrl);
   const optionIds = ["A", "B", "C", "D"];
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const audioRef: any = useRef()
 
   const handleOptionClick = (option: string) => {
     setSelectedOption(option);
     handleAnswerClick(option);
   };
   useEffect(() => {
-    // if (selectedOption) {
-    //   console.log('Selected Option:', selectedOption);
-    // }
-  }, [selectedOption]);
+   
+    if(audioRef.current){
+      audioRef.current.pause();
+      audioRef.current.load();
+      // audioRef.current.play();
+    }
+  }, [currentQuestion]);
   return (
     <Box className="container mt-3 bg-light">
       <Box>
@@ -57,19 +61,21 @@ const Questions: React.FC<QuestionsProps> = ({
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
-              
             }}
           >
-            <Typography variant="body1" className="mt-2 text-warning" style={{marginRight:'7rem'}}> 
+            <Typography
+              variant="body1"
+              className="mt-2 text-warning"
+              style={{ marginRight: "7rem" }}
+            >
               Time remaining: {timer}
             </Typography>
-           
-            <Typography variant="body1" className="mt-2 text-warning">
-            <audio controls>
 
-  <source src={audioUrl} type="audio/mpeg" />
-Your browser does not support the audio element. 
-</audio>
+            <Typography variant="body1" className="mt-2 text-warning">
+              <audio controls  ref={audioRef}>
+                <source src={audioUrl} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </Typography>
           </div>
 
@@ -90,7 +96,7 @@ Your browser does not support the audio element.
                     console.log("selected option", selectedOption);
                   }}
                   sx={{
-                    backgroundColor: option ? "blue" : "white",
+                    background: selectedOption === option ? "white" : "blue",
                     border: "1px solid gray",
                   }}
                 >
