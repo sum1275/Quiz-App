@@ -48,12 +48,15 @@ Your contributions are essential to the development and improvement of the Quiz 
 ```bash
 git commit -m 'Add some AmazingFeature'
 
+
 4. **Push to the Branch**: Upload your new feature to GitHub using:
 
 ```bash
 git push origin feature/AmazingFeature
 
+
 5. **Open a Pull Request**: Finally, submit your changes for review to be potentially merged into the main project.
+
 
 
 
