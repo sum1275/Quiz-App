@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# Quiz App
+Various Screens:
+![image](https://github.com/sum1275/Quiz-App/assets/59500999/a1bd7684-db14-41ee-b230-33ddebebaac9)
+![image](https://github.com/sum1275/Quiz-App/assets/59500999/625f3ccc-ef46-482f-b230-4b6e87d489b6)
+![image](https://github.com/sum1275/Quiz-App/assets/59500999/0f762424-9fa6-45e9-9a9a-6aa537a4f3d3)
+![image](https://github.com/sum1275/Quiz-App/assets/59500999/8364b426-d8b2-4470-b900-61b33f4635ec)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Problem Statement
 
-Currently, two official plugins are available:
+ **Overview**: This is Quiz App With Audio for Each Question.
+ ## Setting up the Frontend in Local Environment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To set up UnstopFrontend locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. **Clone the repository**:
+   ```bash
+  (https://github.com/sum1275/Quiz-App.git)
+2. **Start the Server**:
+   To initiate the application server, execute the following command in your terminal:
+   ```bash
+   npm run dev
+5. **Contributing**:
+   Your contributions are essential to the development and improvement of the Quiz App. Here are the steps to contribute:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   1. **Fork the Project**: Begin by creating your own copy of the project on GitHub.
+   2. **Create Your Feature Branch**: Start a new feature by using the command:
+      ```git
+      git checkout -b feature/AmazingFeature
+      ```
+   3. **Commit Your Changes**: After completing your feature, commit your changes with:
+      ```git
+      git commit -m 'Add some AmazingFeature'
+      ```
+   4. **Push to the Branch**: Upload your new feature to GitHub using:
+      ```git
+      git push origin feature/AmazingFeature
+      ```
+   5. **Open a Pull Request**: Finally, submit your changes for review to be potentially merged into the main project.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
