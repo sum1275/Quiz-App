@@ -53,7 +53,6 @@ git commit -m 'Add some AmazingFeature'
 ```bash
 git push origin feature/AmazingFeature
 
-      ```
 5. **Open a Pull Request**: Finally, submit your changes for review to be potentially merged into the main project.
 
 
